@@ -1,0 +1,5 @@
+[
+    { "nome": "Bart Simpson", "serie": "The Simpsons", "imagem": "https://images.fineartamerica.com/images/artworkimages/medium/3/the-simpsons-bart-simpson-emil-aqdas-transparent.png" },
+    { "nome": "Lisa Simpson", "serie": "The Simpsons", "imagem": "https://images.all-free-download.com/images/graphiclarge/lisa_simpson_01_the_simpsons_51462.jpg" },
+    { "nome": "Homer Simpson", "serie": "The Simpsons", "imagem": "https://img.favpng.com/22/21/5/homer-simpson-bart-simpson-marge-simpson-chief-wiggum-ralph-wiggum-png-favpng-ZjMEsNzaGfVneNwX5NbGcfrvZ.jpg" }
+]

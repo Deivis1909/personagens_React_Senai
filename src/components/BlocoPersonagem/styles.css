@@ -1,0 +1,50 @@
+.personagem-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 35px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.personagem-foto {
+    width: 100px;
+    text-align: center;
+}
+
+.personagem-foto img {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.personagem-info {
+    min-width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.personagem-info span {
+    padding: 4px 0px;
+}
+
+.personagem-info-nome {
+    font-weight: bold;
+}
+
+.personagem-info-serie {
+    font-style: italic;
+}
+
+.personagem-botoes {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.personagem-botoes button {
+    margin: 10px;
+}
