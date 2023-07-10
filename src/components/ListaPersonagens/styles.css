@@ -13,3 +13,13 @@
     font-size: 1.2rem;
     padding: 10px;
 }
+
+.filtro {
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.filtro input {
+    margin: 0px 5px;    
+}

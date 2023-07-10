@@ -17,7 +17,9 @@ export default function CadastroPersonagem( { personagens, carregaPersonagens } 
     const serie = inputSerieRef.current.value;
     const urlImagem = inputImagemRef.current.value;
 
+    // function some = alguns/ retorna só true ou false 
     const jaExiste = personagens.some(p => p.nome === nome);
+    
     if (jaExiste) {
       // alert("Já foi cadastrado personagem com este nome!");
       setMsgErro('Já foi cadastrado personagem com este nome!');

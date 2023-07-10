@@ -26,3 +26,9 @@
 .form-grupo {
     margin: 5px 0px;
 }
+
+.msg-erro {
+    color: red;
+    font-style: italic;
+    margin: 20px 0px;
+}
