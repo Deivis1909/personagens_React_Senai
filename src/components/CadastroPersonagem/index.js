@@ -19,23 +19,25 @@ export default function CadastroPersonagem( { personagens, carregaPersonagens } 
 
     // function some = alguns/ retorna só true ou false 
     const jaExiste = personagens.some(p => p.nome === nome);
-    
+
     if (jaExiste) {
       // alert("Já foi cadastrado personagem com este nome!");
       setMsgErro('Já foi cadastrado personagem com este nome!');
       return;
     }
 
+    // se nao existe cria um objeto novo
     const novo = {
        nome: nome,
        serie: serie,
        imagem: urlImagem
     };
 
-
+    // coloca o objeto novo nos objetos personagens
     const atualizado = [...personagens, novo];
     carregaPersonagens(atualizado);
 
+    // zera os useRefs
     inputNomeRef.current.value = '';
     inputSerieRef.current.value = '';
     inputImagemRef.current.value = '';
@@ -51,6 +53,7 @@ export default function CadastroPersonagem( { personagens, carregaPersonagens } 
 
 
       <div className='form-grupo'>
+        <h1>personagens</h1>
         <label htmlFor="input-nome">Nome: </label>
         <input type="text" required id="input-nome" ref={inputNomeRef} placeholder="Informe o nome" />
       </div>
